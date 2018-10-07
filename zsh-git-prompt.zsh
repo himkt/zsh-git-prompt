@@ -1,4 +1,8 @@
 autoload -Uz vcs_info
+autoload -Uz colors; colors
+
+
+setopt prompt_subst
 
 
 # Modify the colors and symbols in these variables as desired.
